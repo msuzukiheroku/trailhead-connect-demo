@@ -36,13 +36,13 @@ unit4.create_badge({name: 'Salesforce Trivia', image_url: 'badge_salesforce_triv
 
 questions_for_unit1 = Question.create([
   {
-    question_text: 'Heroku is...',
+    question_text: 'Heroku とは',
     unit: unit1,
     answers: [
-      { text: 'an Infrastructure as a Service (IaaS) provider', is_correct: false },
-      { text: 'a fully-managed, cloud-based Platform as a Service (PaaS)', is_correct: true },
-      { text: 'a bird native to Japan', is_correct: false },
-      { text: 'a media streaming device', is_correct: false }
+      { text: 'Infrastructure as a Service (IaaS) プロバイダー', is_correct: false },
+      { text: 'フルマネージドでクラウドをベースとした Platform as a Service (PaaS)', is_correct: true },
+      { text: '日本の野鳥の名前', is_correct: false },
+      { text: 'メディアストリーミングデバイス', is_correct: false }
     ],
   },
   {
