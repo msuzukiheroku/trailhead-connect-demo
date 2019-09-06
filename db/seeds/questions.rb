@@ -118,21 +118,21 @@ questions_for_unit3 = Question.create([
       { text: '無料の VoIP 電話', is_correct: false },
       { text: '毎月のカップケーキの配達', is_correct: false },
       { text: 'ユニコーンと虹', is_correct: false },
-      { text: 'Heroku Connect による Salesforce Bulk, REST, Streaming API コールは Salesforce 組織の API コール数にカウントされない。', is_correct: true }
+      { text: 'Heroku Connect による Salesforce Bulk, REST, Streaming API コールは Salesforce 組織の API コール数にカウントされない', is_correct: true }
     ],
   },
   {
-    question_text: 'In which locations can you deploy your apps using Heroku Private Spaces?',
+    question_text: 'Heroku Private Spaces でアプリケーションをデプロイできる場所は？',
     unit: unit3,
     answers: [
-      { text: 'Virginia, USA and Oregon, USA', is_correct: false },
-      { text: 'Germany and Ireland', is_correct: false },
-      { text: 'Japan and Australia', is_correct: false },
-      { text: 'All of the above', is_correct: true }
+      { text: 'バージニア(米国)、および、オレゴン(米国)', is_correct: false },
+      { text: 'ドイツ、および、アイルランド', is_correct: false },
+      { text: '日本、および、オーストラリア', is_correct: false },
+      { text: '上記すべて', is_correct: true }
     ],
   },
   {
-    question_text: 'Which of the following provide a HIPAA and PCI Level 1 compliant platform on which to deploy apps?',
+    question_text: 'HIPAAおよびPCIレベル1準拠のプラットフォームを提供するのは次のうちどれですか?',
     unit: unit3,
     answers: [
       { text: 'Heroku Private Spaces', is_correct: false },
@@ -145,7 +145,7 @@ questions_for_unit3 = Question.create([
 
 questions_for_unit4 = Question.create([
   {
-    question_text: 'Who was the first Salesforce mascot?',
+    question_text: 'Salesforce の最初のマスコットは?',
     unit: unit4,
     answers: [
       { text: 'Astro', is_correct: false },
@@ -155,33 +155,33 @@ questions_for_unit4 = Question.create([
     ],
   },
   {
-    question_text: 'When was Salesforce founded?',
+    question_text: 'Salesforce が設立されたのはいつ？',
     unit: unit4,
     answers: [
-      { text: '2009', is_correct: false },
-      { text: '2003', is_correct: false },
-      { text: '1995', is_correct: false },
-      { text: '1999', is_correct: true }
+      { text: '2009年', is_correct: false },
+      { text: '2003年', is_correct: false },
+      { text: '1995年', is_correct: false },
+      { text: '1999年', is_correct: true }
     ]
   },
   {
-    question_text: 'When did Heroku become part of Salesforce?',
+    question_text: 'Heroku が Salesforce のサービスになったのはいつ？',
     unit: unit4,
     answers: [
-      { text: '2017', is_correct: false },
-      { text: '2015', is_correct: false },
-      { text: '2012', is_correct: false },
-      { text: '2010', is_correct: true }
+      { text: '2017年', is_correct: false },
+      { text: '2015年', is_correct: false },
+      { text: '2012年', is_correct: false },
+      { text: '2010年', is_correct: true }
     ]
   },
   {
-    question_text: 'What is the fun way to learn Salesforce?',
+    question_text: 'Salesforce を学習できる楽しい方法は?',
     unit: unit4,
     answers: [
       { text: 'Trailhead.', is_correct: true },
-      { text: 'Staying up late every night trying to figure it out on your own.', is_correct: false },
-      { text: 'Plugging your brain in using nanobioelectronics technology.', is_correct: false },
-      { text: 'Reading every single page on help.salesforce.com.', is_correct: false }
+      { text: '毎晩深夜まで自分で勉強する', is_correct: false },
+      { text: 'ナノバイオエレクトロニクス技術で脳に直接インプットする', is_correct: false },
+      { text: 'help.salesforce.com のすべてのドキュメントを読む', is_correct: false }
     ]
   }
 ])
