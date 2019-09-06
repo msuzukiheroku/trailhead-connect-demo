@@ -99,26 +99,26 @@ questions_for_unit2 = Question.create([
     ],
   },
   {
-    question_text: 'What is Heroku Flow?',
+    question_text: 'Heroku Flow とは何?',
     unit: unit2,
     answers: [
-      { text: 'A static type checker for JavaScript.', is_correct: false },
-      { text: 'Pipelines, Review Apps, CI and GitHub integrations combined into an easy-to-use structured workflow for continuous delivery.', is_correct: true },
-      { text: 'A web-based data processing configuration tool.', is_correct: false },
-      { text: 'A streaming music service designed to help developers get into a flow state.', is_correct: false }
+      { text: 'JavaScript 用静的型チェッカー', is_correct: false },
+      { text: 'Pipelines, Review Apps, CI , GitHub のインテグレーションによる継続的デリバリー(CD)のための構造化されたワークフロー', is_correct: true },
+      { text: 'ウェブベースのデータ処理構成ツール', is_correct: false },
+      { text: '開発者がフロー状態になるための音楽配信サービス', is_correct: false }
     ]
   }
 ])
 
 questions_for_unit3 = Question.create([
   {
-    question_text: 'One of the benefits of Heroku Connect is...',
+    question_text: 'Heroku Connect のメリットの1つはどれか？',
     unit: unit3,
     answers: [
-      { text: 'free VoIP phone calls', is_correct: false },
-      { text: 'cupcake delivery once per month', is_correct: false },
-      { text: 'unicorns and rainbows', is_correct: false },
-      { text: 'API calls to Salesforce Bulk, REST, and Streaming APIs made by Heroku Connect don\'t count against my org limits', is_correct: true }
+      { text: '無料の VoIP 電話', is_correct: false },
+      { text: '毎月のカップケーキの配達', is_correct: false },
+      { text: 'ユニコーンと虹', is_correct: false },
+      { text: 'Heroku Connect による Salesforce Bulk, REST, Streaming API コールは Salesforce 組織の API コール数にカウントされない。', is_correct: true }
     ],
   },
   {
