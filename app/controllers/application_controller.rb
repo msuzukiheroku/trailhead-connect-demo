@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
 
   def require_user
     if !logged_in?
-      flash[:info] = "Must be logged in to do that."
+      flash[:info] = "ログインすることが必要です。"
       redirect_to login_path
     end
   end
