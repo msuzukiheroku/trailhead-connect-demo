@@ -46,13 +46,13 @@ questions_for_unit1 = Question.create([
     ],
   },
   {
-    question_text: 'Heroku\'s goal is to...',
+    question_text: 'Heroku のゴールは？',
     unit: unit1,
     answers: [
-      { text: 'increase developer and team productivity', is_correct: false },
-      { text: 'improve a developer\'s experience creating and deploying software', is_correct: false },
-      { text: 'reduce the time to go from idea to live URL', is_correct: false },
-      { text: 'all of the above', is_correct: true }
+      { text: '開発者とチームの生産性向上', is_correct: false },
+      { text: '開発者の体験とソフトウェアのデプロイプロセスの改善', is_correct: false },
+      { text: 'アイディアをウェブアプリケーションとして公開するまでの時間の短縮', is_correct: false },
+      { text: '上記全て', is_correct: true }
     ],
   },
   {
