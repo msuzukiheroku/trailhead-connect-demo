@@ -9,28 +9,28 @@
 User.create([
   {
     name: 'Astro Nomical',
-    description: 'Curious and always learning, Astro is always up for an adventure on the trail.',
+    description: '好奇心旺盛で、いつも学習している Astro は常にトレイルでの冒険に備えています。',
     pronoun: 'they',
     image_url: 'Astro.png',
     avatar_image_url: 'avatar-astro.png'
   },
   {
     name: 'SaaSy',
-    description: 'Philosophy: Success. Not Software.',
+    description: 'フィロソフィー: 成功。ノーソフトウェア',
     pronoun: 'they',
     image_url: 'Saasy.png',
     avatar_image_url: 'avatar-saasy.png'
   },
   {
     name: 'Codey',
-    description: 'Codey likes to build things—he is a maker.',
+    description: 'Codey はクリエイターで、いつも何か作成しています。 ',
     pronoun: 'he',
     image_url: 'Codey.png',
     avatar_image_url: 'avatar-codey.png'
   },
   {
     name: 'Cloudy',
-    description: 'Tech-savvy and smart, Cloudy builds innovative apps with the cloud.',
+    description: 'テクノロジーに明るく、聡明な Cloudy はクラウドを使用して革新的なアプリを構築します。',
     pronoun: 'she',
     image_url: 'Cloudy.png',
     avatar_image_url: 'avatar-cloudy.png'
