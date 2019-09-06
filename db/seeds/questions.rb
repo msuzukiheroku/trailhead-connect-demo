@@ -6,33 +6,33 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-unit1 = Unit.create(title: 'Introduction to Heroku',
-                    description: 'Learn what Heroku is and how to try it out.',
+unit1 = Unit.create(title: 'Heroku のご紹介',
+                    description: 'Heroku の理解と試用の開始。',
                     time_estimate: 1,
                     content: ''
                   )
-unit1.create_badge({name: 'Heroku Beginner', image_url: 'badge_heroku_intro.png'})
+unit1.create_badge({name: 'Heroku 初心者', image_url: 'badge_heroku_intro.png'})
 
-unit2 = Unit.create(title: 'Heroku Fundamentals',
-                    description: 'Expand your knowledge of Heroku, and learn why so many developers love it.',
+unit2 = Unit.create(title: 'Heroku 基礎',
+                    description: 'Heroku を学習し、開発者が Heroku に感じている長所を学習します。',
                     time_estimate: 1,
                     content: ''
                   )
-unit2.create_badge({name: 'Heroku Intermediate', image_url: 'badge_heroku_fundamentals.png'})
+unit2.create_badge({name: 'Heroku 中級', image_url: 'badge_heroku_fundamentals.png'})
 
-unit3 = Unit.create(title: 'Heroku Power Features',
-                    description: 'Solidify your advanced knowledge of Heroku features.',
+unit3 = Unit.create(title: 'Heroku の強力な機能',
+                    description: 'Heroku の強力な機能を習得します。',
                     time_estimate: 1,
                     content: ''
                   )
-unit3.create_badge({name: 'Heroku Advanced', image_url: 'badge_power_features.png'})
+unit3.create_badge({name: 'Heroku 上級', image_url: 'badge_power_features.png'})
 
-unit4 = Unit.create(title: 'Salesforce Trivia',
-                    description: 'General trivia about the history of Salesforce.',
+unit4 = Unit.create(title: 'Salesforce トリビア',
+                    description: 'Salesforce の歴史に関するトリビア',
                     time_estimate: 1,
                     content: ''
                   )
-unit4.create_badge({name: 'Salesforce Trivia', image_url: 'badge_salesforce_trivia.png'})
+unit4.create_badge({name: 'Salesforce トリビア', image_url: 'badge_salesforce_trivia.png'})
 
 questions_for_unit1 = Question.create([
   {
