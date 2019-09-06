@@ -30,56 +30,56 @@ User.create([
   },
   {
     name: 'Cloudy',
-    description: 'テクノロジーに明るく、聡明な Cloudy はクラウドを使用して革新的なアプリを構築します。',
+    description: 'テクノロジーに明るく、聡明な Cloudy はクラウドを使用して革新的なアプリを構築しています。。',
     pronoun: 'she',
     image_url: 'Cloudy.png',
     avatar_image_url: 'avatar-cloudy.png'
   },
   {
     name: 'Hootie McOwlface',
-    description: 'Wise. Has his nose in a book most of the time.',
+    description: '利口、常に読書をしています。',
     pronoun: 'he',
     image_url: 'Hootie.png',
     avatar_image_url: 'avatar-hootie.png'
   },
   {
     name: 'Einstein',
-    description: 'Quick on his feet. Humble brilliance. Gets smarter with every interaction.',
+    description: '俊敏、謙虚、すべての行動がスマートです。',
     pronoun: 'he',
     image_url: 'Einstein.png',
     avatar_image_url: 'avatar-einstein.png'
   },
   {
     name: 'Earnie Badger',
-    description: 'Quick and very clever. Grabbing badges as fast as she can.',
+    description: 'すばやく、賢い。催促でバッジを取得しています。',
     pronoun: 'she',
     image_url: 'Earnie.png',
     avatar_image_url: 'avatar-earnie.png'
   },
   {
     name: 'Appy',
-    description: 'An energetic and relatable bobcat, Appy is your guide to the Partner Ecosystem.',
+    description: '元気で親しみやすいボブキャット、パートナーエコシステムへのガイドです。',
     pronoun: 'she',
     image_url: 'Appy.png',
     avatar_image_url: 'avatar-appy.png'
   },
   {
     name: 'Meta Moose',
-    description: 'Meta Moose is a big picture thinker; he truly sees the forest for the trees.',
+    description: 'Meta Moose は思想家です。木々のために森を見ています。',
     pronoun: 'he',
     image_url: 'Moose.png',
     avatar_image_url: 'avatar-moose.png'
   },
   {
     name: 'Koa the Dog',
-    description: 'Incredibly resourceful, Koa the Dog truly represents what it means to have a friend by your side.',
+    description: 'なんでもよく知っており、いつも、あなたの傍らに居ます。',
     pronoun: 'he',
     image_url: 'Koa.png',
     avatar_image_url: 'avatar-koa.png'
   },
   {
     name: 'Blaze',
-    description: 'Blaze is your faithful, trusted companion, with you from the very start of your journey.',
+    description: '忠実で信頼のおける仲間で、ジャーニーを最初からお供します。',
     pronoun: 'she',
     image_url: 'Blaze.png',
     avatar_image_url: 'avatar-blaze.png'
