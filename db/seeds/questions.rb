@@ -56,13 +56,13 @@ questions_for_unit1 = Question.create([
     ],
   },
   {
-    question_text: 'To make Heroku easy to try, there is a free plan for...',
+    question_text: 'Heroku 無料プランで試用できるのは次のどれか？',
     unit: unit1,
     answers: [
-      { text: 'running applications', is_correct: false },
-      { text: 'running applications and Heroku PostgreSQL', is_correct: false },
-      { text: 'running applications, Heroku PostgreSQL, and Heroku Redis', is_correct: false },
-      { text: 'running applications, Heroku PostgreSQL, Heroku Redis, and many other add-on services', is_correct: true }
+      { text: 'アプリケーションの実行', is_correct: false },
+      { text: 'アプリケーション、Heroku PostgreSQL の実行', is_correct: false },
+      { text: 'アプリケーション、Heroku PostgreSQL、Heroku Redis の実行', is_correct: false },
+      { text: 'アプリケーション、Heroku PostgreSQL、Heroku Redis、その他無料の Add-on の実行', is_correct: true }
     ],
   },
   {
