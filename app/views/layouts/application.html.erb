@@ -24,10 +24,10 @@
           <nav>
             <ul>
               <li class="<%= active_for(path: root_path) %>">
-                <a href="<%= root_path %>">Home</a>
+                <a href="<%= root_path %>">ホーム</a>
               </li>
               <li class="<%= active_for(controller: 'units') %>">
-                <a href="<%= units_path %>">Units</a>
+                <a href="<%= units_path %>">ユニット</a>
               </li>
             </ul>
           </nav>
@@ -36,7 +36,7 @@
           <% if logged_in? %>
             <div class="header-profile">
               <div class="header-profile-info">
-                <div class="header-profile-name"><%= @current_user.name %> (<a href="<%= logout_path %>">Logout</a>)</div>
+                <div class="header-profile-name"><%= @current_user.name %> (<a href="<%= logout_path %>">ログアウト</a>)</div>
                 <div class="header-profile-data"><%= pluralize(@current_user.earned_badges.count, 'Badge') %></div>
               </div>
               <div class="header-profile-avatar">
@@ -44,7 +44,7 @@
               </div>
             </div>
           <% else %>
-            <a href="<%= login_path %>"><button class="header-login">Login</button></a>
+            <a href="<%= login_path %>"><button class="header-login">ログイン</button></a>
           <% end %>
         </div>
       </div>
