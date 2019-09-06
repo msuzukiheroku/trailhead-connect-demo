@@ -66,36 +66,36 @@ questions_for_unit1 = Question.create([
     ],
   },
   {
-    question_text: 'To get started with Heroku, you need...',
+    question_text: 'Heroku の利用開始に必要なのは?',
     unit: unit1,
     answers: [
-      { text: 'to be a DevOps Engineer', is_correct: false },
-      { text: 'an infrastructure team to manage server hardware', is_correct: false },
-      { text: 'a degree in Computer Science', is_correct: false },
-      { text: 'none of the above', is_correct: true }
+      { text: 'DevOps エンジニア', is_correct: false },
+      { text: 'サーバーハードウェア管理を行うインフラストラクチャーチーム', is_correct: false },
+      { text: 'コンピューターサイエンスの学位', is_correct: false },
+      { text: '上記のどれでもない', is_correct: true }
     ]
   }
 ])
 
 questions_for_unit2 = Question.create([
   {
-    question_text: 'What programming languages can you use on Heroku?',
+    question_text: 'Heroku 上で利用可能なプログラミング言語は?',
     unit: unit2,
     answers: [
-      { text: 'Only Ruby', is_correct: false },
-      { text: 'Ruby, Node, and Java', is_correct: false },
-      { text: 'Node, Ruby, Java, Python, PHP, Go, Scala, and Clojure, officially -- plus many community supported languages', is_correct: true },
+      { text: 'Ruby のみ', is_correct: false },
+      { text: 'Ruby, Node, Java', is_correct: false },
+      { text: 'Node, Ruby, Java, Python, PHP, Go, Scala, Clojure が正式サポート、加えて、多くのコミュニティサポートによる開発言語', is_correct: true },
       { text: 'Ruby and Rails', is_correct: false }
     ],
   },
   {
-    question_text: 'Heroku Teams makes which of the following easier?',
+    question_text: 'Heroku Teams は次のどれが簡単になりますか?',
     unit: unit2,
     answers: [
-      { text: 'Collaboration with other developers', is_correct: false },
-      { text: 'Permissions management for multiple users', is_correct: false },
-      { text: 'Billing for multiple apps within a company', is_correct: false },
-      { text: 'All of the above', is_correct: true }
+      { text: '他の開発者とのコラボレーション', is_correct: false },
+      { text: '複数ユーザーのパーミッション管理', is_correct: false },
+      { text: '企業内の複数のアプリケーションの利用状況把握', is_correct: false },
+      { text: '上記すべて', is_correct: true }
     ],
   },
   {
