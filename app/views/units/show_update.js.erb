@@ -30,7 +30,7 @@
   var escapeListener = window.addEventListener('keydown', escapeHandler, true)
   var clickListener  = window.addEventListener('mousedown', clickHandler, true)
 <% else %>
-  document.getElementById('quiz-result').innerHTML = "<%= incorrect_questions.count %>問が間違っています"
+  document.getElementById('quiz-result').innerHTML = "<%= incorrect_questions.count %>問 不正解です。"
 
   document.querySelectorAll("input[type=radio]:checked").forEach(function(el) {
     var matches = el.id.match(/quiz_submission_((\d+)_\d+)/)
