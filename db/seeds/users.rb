@@ -16,7 +16,7 @@ User.create([
   },
   {
     name: 'SaaSy',
-    description: 'フィロソフィー: 成功。ノーソフトウェア',
+    description: 'フィロソフィー: 成功。ノーソフトウェア。',
     pronoun: 'they',
     image_url: 'Saasy.png',
     avatar_image_url: 'avatar-saasy.png'
@@ -30,7 +30,7 @@ User.create([
   },
   {
     name: 'Cloudy',
-    description: 'テクノロジーに明るく、聡明な Cloudy はクラウドを使用して革新的なアプリを構築しています。。',
+    description: 'テクノロジーに明るく、聡明な Cloudy はクラウドを使用して革新的なアプリを構築しています。',
     pronoun: 'she',
     image_url: 'Cloudy.png',
     avatar_image_url: 'avatar-cloudy.png'
